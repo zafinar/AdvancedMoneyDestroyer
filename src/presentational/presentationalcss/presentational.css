@@ -1,0 +1,89 @@
+#table {
+    margin: 20px;
+    font-family: "Bookman", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td, #table th {
+    border: 2px solid #fff;
+    padding: 0px;
+    color: #fff;
+}
+
+#table tr:nth-child(odd){background-color: #2c3b46;}
+
+#table tr:hover {background-color: #000000;}
+
+#table th {
+    font-family: "Bookman";
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #000000;
+    color: #fff;
+}
+
+#spreadTable {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    margin: 20px;
+    font-family: "Bookman", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#spreadTable td, #spreadTable th {
+    border: 1px solid #262626;
+    padding: 3px;
+}
+
+#bids :nth-child(odd){background-color: #ff4000;}
+
+#bids :hover {background-color: #802000;}
+
+#asks :nth-child(odd){background-color: #00ff55;}
+
+#asks :hover {background-color: #00802b;}
+
+#bid  {
+    font-family: "Bookman";
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #cc3300;
+    color: black;
+}
+#ask  {
+    font-family: "Bookman";
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00cc44;
+    color: black;
+}
+.dataContainer {
+  width: 33%;
+  height: auto;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-style: double;
+  border-width: 1px;
+  border-color: #fff;
+  text-align: center;
+  font-family: "Bookman";
+  background-color: #04151f;
+  color: #fff;
+  margin: 20px;
+
+}
+
+hr.style-eight {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}

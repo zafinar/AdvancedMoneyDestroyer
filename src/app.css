@@ -1,0 +1,50 @@
+body{
+  background-color: #04151f;
+}
+.App{
+  background: #04151f;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+
+.search{
+  text-align: center;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 10%;
+  width: 33%;
+}
+.searchInstructions{
+  text-align: center;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-top: 2%;
+  width: 33%;
+}
+
+#HeaderText{
+text-align: center;
+font-family: Impact, Charcoal, sans-serif;
+color: #fff;
+}
+
+#text{
+  color: #fff;
+}
+
+
+.flex-container{
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction:row;
+  margin: -20px;
+
+
+}
